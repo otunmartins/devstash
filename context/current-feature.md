@@ -1,27 +1,12 @@
 # Current Feature
 
-Dashboard UI Phase 1 — Layout & Shell
+None
 
 # Status
 
-In Progress
+—
 
-# Goals
-
-- ShadCN UI initialization and component installation
-- Dashboard route at `/dashboard`
-- Main dashboard layout and global styles
-- Dark mode by default
-- Top bar with search and new item button (display only)
-- Placeholder sidebar and main area
-
-## Notes
-
-- Reference screenshot: `context/screenshots/dashboard-ui-main.png`
-- This is phase 1 of 3 for the dashboard UI
-- Phases 2 and 3 specs are in `context/features/`
-
-## History
+# History
 
 <!-- Keep this updated. Earliest to latest -->
 
@@ -33,7 +18,10 @@ In Progress
 - Added project context files (`context/`)
 - Initialized git repo and pushed to GitHub (`otunmartins/devstash`)
 
-### 2026-04-05 — Dashboard UI Phase 1 Started
+### 2026-04-05 — Dashboard UI Phase 1 Completed
 
 - Added mock data file at `src/lib/mock-data.ts`
-- Beginning dashboard layout implementation (phase 1 of 3)
+- Implemented dashboard layout with topbar, sidebar, and main area
+- Set up dark mode as default (CSS variables in `:root`)
+- Fixed Geist font mapping in `@theme inline`
+- Dashboard route live at `/dashboard`
